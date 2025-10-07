@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/horn_coral_fan"
+    },
+    "cases": [
+      {
+        "when": "torus:gold_dust",
+        "model": {
+          "type": "model",
+          "model": "item/gold_dust"
+        }
+      }
+    ]
+  }
+}

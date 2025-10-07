@@ -1,0 +1,6 @@
+{
+    "parent": "item/torus_conduit",
+	"textures": {
+		"all": "item/item_conduit"
+	}
+}

@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    },
+    "cases": [
+      {
+        "when": "torus:coal_generator",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
+        "when": "torus:solar_generator",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
+        "when": "torus:pump",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
+        "when": "torus:ore_crusher",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
+        "when": "torus:ore_washer",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
+        "when": "torus:circuit_board",
+        "model": {
+          "type": "model",
+          "model": "item/circuit_board"
+        }
+      },
+      {
+        "when": "torus:item_conduit",
+        "model": {
+          "type": "model",
+          "model": "item/item_conduit"
+        }
+      },
+      {
+        "when": "torus:energy_cable",
+        "model": {
+          "type": "model",
+          "model": "item/energy_cable"
+        }
+      },
+      {
+        "when": "torus:fluid_pipe",
+        "model": {
+          "type": "model",
+          "model": "item/fluid_pipe"
+        }
+      }
+    ]
+  }
+}

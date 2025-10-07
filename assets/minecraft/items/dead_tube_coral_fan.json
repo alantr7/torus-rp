@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/dead_tube_coral_fan"
+    },
+    "cases": [
+      {
+        "when": "torus:iron_dust",
+        "model": {
+          "type": "model",
+          "model": "item/iron_dust"
+        }
+      }
+    ]
+  }
+}
