@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/iron_block"
+    },
+    "cases": [
+      {
+        "when": "torus:machine_block",
+        "model": {
+          "type": "model",
+          "model": "item/machine_block"
+        }
+      }
+    ]
+  }
+}
