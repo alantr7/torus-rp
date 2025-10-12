@@ -8,6 +8,13 @@
     },
     "cases": [
       {
+        "when": "torus:blast_furnace",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
         "when": "torus:coal_generator",
         "model": {
           "type": "model",
