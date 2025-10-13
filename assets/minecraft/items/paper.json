@@ -15,6 +15,13 @@
         }
       },
       {
+        "when": "torus:block_breaker",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
         "when": "torus:coal_generator",
         "model": {
           "type": "model",
