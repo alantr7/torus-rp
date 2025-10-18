@@ -13,6 +13,13 @@
           "type": "model",
           "model": "item/screwdriver"
         }
+      },
+      {
+        "when": "torus:hammer",
+        "model": {
+          "type": "model",
+          "model": "item/hammer"
+        }
       }
     ]
   }
