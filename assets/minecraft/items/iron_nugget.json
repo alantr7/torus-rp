@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_ingot"
+    },
+    "cases": [
+      {
+        "when": "torus:steel_nugget",
+        "model": {
+          "type": "model",
+          "model": "item/steel_nugget"
+        }
+      }
+    ]
+  }
+}
