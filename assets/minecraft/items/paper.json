@@ -43,6 +43,13 @@
         }
       },
       {
+        "when": "torus:power_bank",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
         "when": "torus:pump",
         "model": {
           "type": "model",
