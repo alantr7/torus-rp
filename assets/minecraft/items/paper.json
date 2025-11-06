@@ -50,6 +50,13 @@
         }
       },
       {
+        "when": "torus:fluid_tank",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
         "when": "torus:pump",
         "model": {
           "type": "model",
