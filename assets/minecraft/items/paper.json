@@ -36,6 +36,13 @@
         }
       },
       {
+        "when": "torus:windmill",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
         "when": "torus:pump",
         "model": {
           "type": "model",
