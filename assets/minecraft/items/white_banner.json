@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/white_banner"
+    },
+    "cases": [
+      {
+        "when": "torus:windmill_blade",
+        "model": {
+          "type": "model",
+          "model": "item/windmill_blade"
+        }
+      }
+    ]
+  }
+}
