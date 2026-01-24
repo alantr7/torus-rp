@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/lapis_block"
+    },
+    "cases": [
+      {
+        "when": "torus:solar_panel",
+        "model": {
+          "type": "model",
+          "model": "machine/solar_panel"
+        }
+      }
+    ]
+  }
+}
