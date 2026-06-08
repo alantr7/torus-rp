@@ -4,7 +4,7 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "item/iron_ingot"
+      "model": "item/iron_nugget"
     },
     "cases": [
       {
