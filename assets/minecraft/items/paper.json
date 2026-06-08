@@ -92,6 +92,13 @@
         }
       },
       {
+        "when": "torus:pressure_vent",
+        "model": {
+          "type": "model",
+          "model": "item/blueprint"
+        }
+      },
+      {
         "when": "torus:circuit_board",
         "model": {
           "type": "model",
